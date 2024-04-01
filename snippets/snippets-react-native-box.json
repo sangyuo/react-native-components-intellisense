@@ -1,0 +1,1177 @@
+{
+  "height 0px": {
+    "prefix": "h",
+    "body": "h-0",
+    "description": "height 0px"
+  },
+  "height 1px": {
+    "prefix": "h",
+    "body": "h",
+    "description": "height 1px"
+  },
+  "height 2px": {
+    "prefix": "h-0.5",
+    "body": "h-0.5",
+    "description": "height 2px"
+  },
+  "height 4px": {
+    "prefix": "h-1",
+    "body": "h-1",
+    "description": "height 4px"
+  },
+  "height 6px": {
+    "prefix": "h-1.5",
+    "body": "h-1.5",
+    "description": "height 6px"
+  },
+  "height 8px": {
+    "prefix": "h-2",
+    "body": "h-2",
+    "description": "height 8px"
+  },
+  "height 10px": {
+    "prefix": "h-2.5",
+    "body": "h-2.5",
+    "description": "height 10px"
+  },
+  "height 12px": {
+    "prefix": "h-3",
+    "body": "h-3",
+    "description": "height 12px"
+  },
+  "height 14px": {
+    "prefix": "h-3.5",
+    "body": "h-3.5",
+    "description": "height 14px"
+  },
+  "height 16px": {
+    "prefix": "h-4",
+    "body": "h-4",
+    "description": "height 16px"
+  },
+  "height 20px": {
+    "prefix": "h-5",
+    "body": "h-5",
+    "description": "height 20px"
+  },
+  "height 24px": {
+    "prefix": "h-6",
+    "body": "h-6",
+    "description": "height 24px"
+  },
+  "height 28px": {
+    "prefix": "h-7",
+    "body": "h-7",
+    "description": "height 28px"
+  },
+  "height 32px": {
+    "prefix": "h-8",
+    "body": "h-8",
+    "description": "height 32px"
+  },
+  "height 36px": {
+    "prefix": "h-9",
+    "body": "h-9",
+    "description": "height 36px"
+  },
+  "height 40px": {
+    "prefix": "h-10",
+    "body": "h-10",
+    "description": "height 40px"
+  },
+  "height 44px": {
+    "prefix": "h-11",
+    "body": "h-11",
+    "description": "height 44px"
+  },
+  "height 48px": {
+    "prefix": "h-12",
+    "body": "h-12",
+    "description": "height 48px"
+  },
+  "height 56px": {
+    "prefix": "h-14",
+    "body": "h-14",
+    "description": "height 56px"
+  },
+  "height 64px": {
+    "prefix": "h-16",
+    "body": "h-16",
+    "description": "height 64px"
+  },
+  "height 80px": {
+    "prefix": "h-20",
+    "body": "h-20",
+    "description": "height 80px"
+  },
+  "height 96px": {
+    "prefix": "h-24",
+    "body": "h-24",
+    "description": "height 96px"
+  },
+  "height 112px": {
+    "prefix": "h-28",
+    "body": "h-28",
+    "description": "height 112px"
+  },
+  "height 128px": {
+    "prefix": "h-32",
+    "body": "h-32",
+    "description": "height 128px"
+  },
+  "height 144px": {
+    "prefix": "h-36",
+    "body": "h-36",
+    "description": "height 144px"
+  },
+  "height 160px": {
+    "prefix": "h-40",
+    "body": "h-40",
+    "description": "height 160px"
+  },
+  "height 176px": {
+    "prefix": "h-44",
+    "body": "h-44",
+    "description": "height 176px"
+  },
+  "height 192px": {
+    "prefix": "h-48",
+    "body": "h-48",
+    "description": "height 192px"
+  },
+  "height 208px": {
+    "prefix": "h-52",
+    "body": "h-52",
+    "description": "height 208px"
+  },
+  "height 224px": {
+    "prefix": "h-56",
+    "body": "h-56",
+    "description": "height 224px"
+  },
+  "height 240px": {
+    "prefix": "h-60",
+    "body": "h-60",
+    "description": "height 240px"
+  },
+  "height 256px": {
+    "prefix": "h-64",
+    "body": "h-64",
+    "description": "height 256px"
+  },
+  "height 288px": {
+    "prefix": "h-72",
+    "body": "h-72",
+    "description": "height 288px"
+  },
+  "height 320px": {
+    "prefix": "h-80",
+    "body": "h-80",
+    "description": "height 320px"
+  },
+  "height 384px": {
+    "prefix": "h-96",
+    "body": "h-96",
+    "description": "height 384px"
+  },
+  "height 1/3": {
+    "prefix": "h-1/3",
+    "body": "h-1/3",
+    "description": "height 1/3"
+  },
+  "height 2/3": {
+    "prefix": "h-2/3",
+    "body": "h-2/3",
+    "description": "height 2/3"
+  },
+  "height 1/2": {
+    "prefix": "h-1/2",
+    "body": "h-1/2",
+    "description": "height 1/2"
+  },
+  "height 1/4": {
+    "prefix": "h-1/4",
+    "body": "h-1/4",
+    "description": "height 1/4"
+  },
+  "height 3/4": {
+    "prefix": "h-3/4",
+    "body": "h-3/4",
+    "description": "height 3/4"
+  },
+  "height 1/5": {
+    "prefix": "h-1/5",
+    "body": "h-1/5",
+    "description": "height 1/5"
+  },
+  "height 2/5": {
+    "prefix": "h-2/5",
+    "body": "h-2/5",
+    "description": "height 2/5"
+  },
+  "height 3/5": {
+    "prefix": "h-3/5",
+    "body": "h-3/5",
+    "description": "height 3/5"
+  },
+  "height 4/5": {
+    "prefix": "h-4/5",
+    "body": "h-4/5",
+    "description": "height 4/5"
+  },
+  "height full": {
+    "prefix": "h-full",
+    "body": "h-full",
+    "description": "height full"
+  },
+  "height screen": {
+    "prefix": "h-screen",
+    "body": "h-screen",
+    "description": "height screen"
+  },
+  "min-height 0px": {
+    "prefix": "min-h-0",
+    "body": "min-h-0",
+    "description": "min-height 0px"
+  },
+  "min-height 1px": {
+    "prefix": "min-h",
+    "body": "min-h",
+    "description": "min-height 1px"
+  },
+  "min-height 2px": {
+    "prefix": "min-h-0.5",
+    "body": "min-h-0.5",
+    "description": "min-height 2px"
+  },
+  "min-height 4px": {
+    "prefix": "min-h-1",
+    "body": "min-h-1",
+    "description": "min-height 4px"
+  },
+  "min-height 6px": {
+    "prefix": "min-h-1.5",
+    "body": "min-h-1.5",
+    "description": "min-height 6px"
+  },
+  "min-height 8px": {
+    "prefix": "min-h-2",
+    "body": "min-h-2",
+    "description": "min-height 8px"
+  },
+  "min-height 10px": {
+    "prefix": "min-h-2.5",
+    "body": "min-h-2.5",
+    "description": "min-height 10px"
+  },
+  "min-height 12px": {
+    "prefix": "min-h-3",
+    "body": "min-h-3",
+    "description": "min-height 12px"
+  },
+  "min-height 14px": {
+    "prefix": "min-h-3.5",
+    "body": "min-h-3.5",
+    "description": "min-height 14px"
+  },
+  "min-height 16px": {
+    "prefix": "min-h-4",
+    "body": "min-h-4",
+    "description": "min-height 16px"
+  },
+  "min-height 20px": {
+    "prefix": "min-h-5",
+    "body": "min-h-5",
+    "description": "min-height 20px"
+  },
+  "min-height 24px": {
+    "prefix": "min-h-6",
+    "body": "min-h-6",
+    "description": "min-height 24px"
+  },
+  "min-height 28px": {
+    "prefix": "min-h-7",
+    "body": "min-h-7",
+    "description": "min-height 28px"
+  },
+  "min-height 32px": {
+    "prefix": "min-h-8",
+    "body": "min-h-8",
+    "description": "min-height 32px"
+  },
+  "min-height 36px": {
+    "prefix": "min-h-9",
+    "body": "min-h-9",
+    "description": "min-height 36px"
+  },
+  "min-height 40px": {
+    "prefix": "min-h-10",
+    "body": "min-h-10",
+    "description": "min-height 40px"
+  },
+  "min-height 44px": {
+    "prefix": "min-h-11",
+    "body": "min-h-11",
+    "description": "min-height 44px"
+  },
+  "min-height 48px": {
+    "prefix": "min-h-12",
+    "body": "min-h-12",
+    "description": "min-height 48px"
+  },
+  "min-height 56px": {
+    "prefix": "min-h-14",
+    "body": "min-h-14",
+    "description": "min-height 56px"
+  },
+  "min-height 64px": {
+    "prefix": "min-h-16",
+    "body": "min-h-16",
+    "description": "min-height 64px"
+  },
+  "min-height 80px": {
+    "prefix": "min-h-20",
+    "body": "min-h-20",
+    "description": "min-height 80px"
+  },
+  "min-height 96px": {
+    "prefix": "min-h-24",
+    "body": "min-h-24",
+    "description": "min-height 96px"
+  },
+  "min-height 112px": {
+    "prefix": "min-h-28",
+    "body": "min-h-28",
+    "description": "min-height 112px"
+  },
+  "min-height 128px": {
+    "prefix": "min-h-32",
+    "body": "min-h-32",
+    "description": "min-height 128px"
+  },
+  "min-height 144px": {
+    "prefix": "min-h-36",
+    "body": "min-h-36",
+    "description": "min-height 144px"
+  },
+  "min-height 160px": {
+    "prefix": "min-h-40",
+    "body": "min-h-40",
+    "description": "min-height 160px"
+  },
+  "min-height 176px": {
+    "prefix": "min-h-44",
+    "body": "min-h-44",
+    "description": "min-height 176px"
+  },
+  "min-height 192px": {
+    "prefix": "min-h-48",
+    "body": "min-h-48",
+    "description": "min-height 192px"
+  },
+  "min-height 208px": {
+    "prefix": "min-h-52",
+    "body": "min-h-52",
+    "description": "min-height 208px"
+  },
+  "min-height 224px": {
+    "prefix": "min-h-56",
+    "body": "min-h-56",
+    "description": "min-height 224px"
+  },
+  "min-height 240px": {
+    "prefix": "min-h-60",
+    "body": "min-h-60",
+    "description": "min-height 240px"
+  },
+  "min-height 256px": {
+    "prefix": "min-h-64",
+    "body": "min-h-64",
+    "description": "min-height 256px"
+  },
+  "min-height 288px": {
+    "prefix": "min-h-72",
+    "body": "min-h-72",
+    "description": "min-height 288px"
+  },
+  "min-height 320px": {
+    "prefix": "min-h-80",
+    "body": "min-h-80",
+    "description": "min-height 320px"
+  },
+  "min-height 384px": {
+    "prefix": "min-h-96",
+    "body": "min-h-96",
+    "description": "min-height 384px"
+  },
+  "min-height 1/3": {
+    "prefix": "min-h-1/3",
+    "body": "min-h-1/3",
+    "description": "min-height 1/3"
+  },
+  "min-height 2/3": {
+    "prefix": "min-h-2/3",
+    "body": "min-h-2/3",
+    "description": "min-height 2/3"
+  },
+  "min-height 1/2": {
+    "prefix": "min-h-1/2",
+    "body": "min-h-1/2",
+    "description": "min-height 1/2"
+  },
+  "min-height 1/4": {
+    "prefix": "min-h-1/4",
+    "body": "min-h-1/4",
+    "description": "min-height 1/4"
+  },
+  "min-height 3/4": {
+    "prefix": "min-h-3/4",
+    "body": "min-h-3/4",
+    "description": "min-height 3/4"
+  },
+  "min-height 1/5": {
+    "prefix": "min-h-1/5",
+    "body": "min-h-1/5",
+    "description": "min-height 1/5"
+  },
+  "min-height 2/5": {
+    "prefix": "min-h-2/5",
+    "body": "min-h-2/5",
+    "description": "min-height 2/5"
+  },
+  "min-height 3/5": {
+    "prefix": "min-h-3/5",
+    "body": "min-h-3/5",
+    "description": "min-height 3/5"
+  },
+  "min-height 4/5": {
+    "prefix": "min-h-4/5",
+    "body": "min-h-4/5",
+    "description": "min-height 4/5"
+  },
+  "min-height full": {
+    "prefix": "min-h-full",
+    "body": "min-h-full",
+    "description": "min-height full"
+  },
+  "min-height screen": {
+    "prefix": "min-h-screen",
+    "body": "min-h-screen",
+    "description": "min-height screen"
+  },
+  "max-height 0px": {
+    "prefix": "max-h-0",
+    "body": "max-h-0",
+    "description": "max-height 0px"
+  },
+  "max-height 1px": {
+    "prefix": "max-h",
+    "body": "max-h",
+    "description": "max-height 1px"
+  },
+  "max-height 2px": {
+    "prefix": "max-h-0.5",
+    "body": "max-h-0.5",
+    "description": "max-height 2px"
+  },
+  "max-height 4px": {
+    "prefix": "max-h-1",
+    "body": "max-h-1",
+    "description": "max-height 4px"
+  },
+  "max-height 6px": {
+    "prefix": "max-h-1.5",
+    "body": "max-h-1.5",
+    "description": "max-height 6px"
+  },
+  "max-height 8px": {
+    "prefix": "max-h-2",
+    "body": "max-h-2",
+    "description": "max-height 8px"
+  },
+  "max-height 10px": {
+    "prefix": "max-h-2.5",
+    "body": "max-h-2.5",
+    "description": "max-height 10px"
+  },
+  "max-height 12px": {
+    "prefix": "max-h-3",
+    "body": "max-h-3",
+    "description": "max-height 12px"
+  },
+  "max-height 14px": {
+    "prefix": "max-h-3.5",
+    "body": "max-h-3.5",
+    "description": "max-height 14px"
+  },
+  "max-height 16px": {
+    "prefix": "max-h-4",
+    "body": "max-h-4",
+    "description": "max-height 16px"
+  },
+  "max-height 20px": {
+    "prefix": "max-h-5",
+    "body": "max-h-5",
+    "description": "max-height 20px"
+  },
+  "max-height 24px": {
+    "prefix": "max-h-6",
+    "body": "max-h-6",
+    "description": "max-height 24px"
+  },
+  "max-height 28px": {
+    "prefix": "max-h-7",
+    "body": "max-h-7",
+    "description": "max-height 28px"
+  },
+  "max-height 32px": {
+    "prefix": "max-h-8",
+    "body": "max-h-8",
+    "description": "max-height 32px"
+  },
+  "max-height 36px": {
+    "prefix": "max-h-9",
+    "body": "max-h-9",
+    "description": "max-height 36px"
+  },
+  "max-height 40px": {
+    "prefix": "max-h-10",
+    "body": "max-h-10",
+    "description": "max-height 40px"
+  },
+  "max-height 44px": {
+    "prefix": "max-h-11",
+    "body": "max-h-11",
+    "description": "max-height 44px"
+  },
+  "max-height 48px": {
+    "prefix": "max-h-12",
+    "body": "max-h-12",
+    "description": "max-height 48px"
+  },
+  "max-height 56px": {
+    "prefix": "max-h-14",
+    "body": "max-h-14",
+    "description": "max-height 56px"
+  },
+  "max-height 64px": {
+    "prefix": "max-h-16",
+    "body": "max-h-16",
+    "description": "max-height 64px"
+  },
+  "max-height 80px": {
+    "prefix": "max-h-20",
+    "body": "max-h-20",
+    "description": "max-height 80px"
+  },
+  "max-height 96px": {
+    "prefix": "max-h-24",
+    "body": "max-h-24",
+    "description": "max-height 96px"
+  },
+  "max-height 112px": {
+    "prefix": "max-h-28",
+    "body": "max-h-28",
+    "description": "max-height 112px"
+  },
+  "max-height 128px": {
+    "prefix": "max-h-32",
+    "body": "max-h-32",
+    "description": "max-height 128px"
+  },
+  "max-height 144px": {
+    "prefix": "max-h-36",
+    "body": "max-h-36",
+    "description": "max-height 144px"
+  },
+  "max-height 160px": {
+    "prefix": "max-h-40",
+    "body": "max-h-40",
+    "description": "max-height 160px"
+  },
+  "max-height 176px": {
+    "prefix": "max-h-44",
+    "body": "max-h-44",
+    "description": "max-height 176px"
+  },
+  "max-height 192px": {
+    "prefix": "max-h-48",
+    "body": "max-h-48",
+    "description": "max-height 192px"
+  },
+  "max-height 208px": {
+    "prefix": "max-h-52",
+    "body": "max-h-52",
+    "description": "max-height 208px"
+  },
+  "max-height 224px": {
+    "prefix": "max-h-56",
+    "body": "max-h-56",
+    "description": "max-height 224px"
+  },
+  "max-height 240px": {
+    "prefix": "max-h-60",
+    "body": "max-h-60",
+    "description": "max-height 240px"
+  },
+  "max-height 256px": {
+    "prefix": "max-h-64",
+    "body": "max-h-64",
+    "description": "max-height 256px"
+  },
+  "max-height 288px": {
+    "prefix": "max-h-72",
+    "body": "max-h-72",
+    "description": "max-height 288px"
+  },
+  "max-height 320px": {
+    "prefix": "max-h-80",
+    "body": "max-h-80",
+    "description": "max-height 320px"
+  },
+  "max-height 384px": {
+    "prefix": "max-h-96",
+    "body": "max-h-96",
+    "description": "max-height 384px"
+  },
+  "max-height 1/3": {
+    "prefix": "max-h-1/3",
+    "body": "max-h-1/3",
+    "description": "max-height 1/3"
+  },
+  "max-height 2/3": {
+    "prefix": "max-h-2/3",
+    "body": "max-h-2/3",
+    "description": "max-height 2/3"
+  },
+  "max-height 1/2": {
+    "prefix": "max-h-1/2",
+    "body": "max-h-1/2",
+    "description": "max-height 1/2"
+  },
+  "max-height 1/4": {
+    "prefix": "max-h-1/4",
+    "body": "max-h-1/4",
+    "description": "max-height 1/4"
+  },
+  "max-height 3/4": {
+    "prefix": "max-h-3/4",
+    "body": "max-h-3/4",
+    "description": "max-height 3/4"
+  },
+  "max-height 1/5": {
+    "prefix": "max-h-1/5",
+    "body": "max-h-1/5",
+    "description": "max-height 1/5"
+  },
+  "max-height 2/5": {
+    "prefix": "max-h-2/5",
+    "body": "max-h-2/5",
+    "description": "max-height 2/5"
+  },
+  "max-height 3/5": {
+    "prefix": "max-h-3/5",
+    "body": "max-h-3/5",
+    "description": "max-height 3/5"
+  },
+  "max-height 4/5": {
+    "prefix": "max-h-4/5",
+    "body": "max-h-4/5",
+    "description": "max-height 4/5"
+  },
+  "max-height full": {
+    "prefix": "max-h-full",
+    "body": "max-h-full",
+    "description": "max-height full"
+  },
+  "max-height screen": {
+    "prefix": "max-h-screen",
+    "body": "max-h-screen",
+    "description": "max-height screen"
+  },
+  "width 0px": {
+    "prefix": "w-0",
+    "body": "w-0",
+    "description": "width 0px"
+  },
+  "width 1px": {
+    "prefix": "w",
+    "body": "w",
+    "description": "width 1px"
+  },
+  "width 2px": {
+    "prefix": "w-0.5",
+    "body": "w-0.5",
+    "description": "width 2px"
+  },
+  "width 4px": {
+    "prefix": "w-1",
+    "body": "w-1",
+    "description": "width 4px"
+  },
+  "width 6px": {
+    "prefix": "w-1.5",
+    "body": "w-1.5",
+    "description": "width 6px"
+  },
+  "width 8px": {
+    "prefix": "w-2",
+    "body": "w-2",
+    "description": "width 8px"
+  },
+  "width 10px": {
+    "prefix": "w-2.5",
+    "body": "w-2.5",
+    "description": "width 10px"
+  },
+  "width 12px": {
+    "prefix": "w-3",
+    "body": "w-3",
+    "description": "width 12px"
+  },
+  "width 14px": {
+    "prefix": "w-3.5",
+    "body": "w-3.5",
+    "description": "width 14px"
+  },
+  "width 16px": {
+    "prefix": "w-4",
+    "body": "w-4",
+    "description": "width 16px"
+  },
+  "width 20px": {
+    "prefix": "w-5",
+    "body": "w-5",
+    "description": "width 20px"
+  },
+  "width 24px": {
+    "prefix": "w-6",
+    "body": "w-6",
+    "description": "width 24px"
+  },
+  "width 28px": {
+    "prefix": "w-7",
+    "body": "w-7",
+    "description": "width 28px"
+  },
+  "width 32px": {
+    "prefix": "w-8",
+    "body": "w-8",
+    "description": "width 32px"
+  },
+  "width 36px": {
+    "prefix": "w-9",
+    "body": "w-9",
+    "description": "width 36px"
+  },
+  "width 40px": {
+    "prefix": "w-10",
+    "body": "w-10",
+    "description": "width 40px"
+  },
+  "width 44px": {
+    "prefix": "w-11",
+    "body": "w-11",
+    "description": "width 44px"
+  },
+  "width 48px": {
+    "prefix": "w-12",
+    "body": "w-12",
+    "description": "width 48px"
+  },
+  "width 56px": {
+    "prefix": "w-14",
+    "body": "w-14",
+    "description": "width 56px"
+  },
+  "width 64px": {
+    "prefix": "w-16",
+    "body": "w-16",
+    "description": "width 64px"
+  },
+  "width 80px": {
+    "prefix": "w-20",
+    "body": "w-20",
+    "description": "width 80px"
+  },
+  "width 96px": {
+    "prefix": "w-24",
+    "body": "w-24",
+    "description": "width 96px"
+  },
+  "width 1/3": {
+    "prefix": "w-1/3",
+    "body": "w-1/3",
+    "description": "width 1/3"
+  },
+  "width 2/3": {
+    "prefix": "w-2/3",
+    "body": "w-2/3",
+    "description": "width 2/3"
+  },
+  "width 1/2": {
+    "prefix": "w-1/2",
+    "body": "w-1/2",
+    "description": "width 1/2"
+  },
+  "width 1/4": {
+    "prefix": "w-1/4",
+    "body": "w-1/4",
+    "description": "width 1/4"
+  },
+  "width 3/4": {
+    "prefix": "w-3/4",
+    "body": "w-3/4",
+    "description": "width 3/4"
+  },
+  "width 1/5": {
+    "prefix": "w-1/5",
+    "body": "w-1/5",
+    "description": "width 1/5"
+  },
+  "width 2/5": {
+    "prefix": "w-2/5",
+    "body": "w-2/5",
+    "description": "width 2/5"
+  },
+  "width 3/5": {
+    "prefix": "w-3/5",
+    "body": "w-3/5",
+    "description": "width 3/5"
+  },
+  "width 4/5": {
+    "prefix": "w-4/5",
+    "body": "w-4/5",
+    "description": "width 4/5"
+  },
+  "width full": {
+    "prefix": "w-full",
+    "body": "w-full",
+    "description": "width full"
+  },
+  "width screen": {
+    "prefix": "w-screen",
+    "body": "w-screen",
+    "description": "width screen"
+  },
+  "min-width 0px": {
+    "prefix": "min-w-0",
+    "body": "min-w-0",
+    "description": "min-width 0px"
+  },
+  "min-width 2px": {
+    "prefix": "min-w-0.5",
+    "body": "min-w-0.5",
+    "description": "min-width 2px"
+  },
+  "min-width 4px": {
+    "prefix": "min-w-1",
+    "body": "min-w-1",
+    "description": "min-width 4px"
+  },
+  "min-width 6px": {
+    "prefix": "min-w-1.5",
+    "body": "min-w-1.5",
+    "description": "min-width 6px"
+  },
+  "min-width 8px": {
+    "prefix": "min-w-2",
+    "body": "min-w-2",
+    "description": "min-width 8px"
+  },
+  "min-width 10px": {
+    "prefix": "min-w-2.5",
+    "body": "min-w-2.5",
+    "description": "min-width 10px"
+  },
+  "min-width 12px": {
+    "prefix": "min-w-3",
+    "body": "min-w-3",
+    "description": "min-width 12px"
+  },
+  "min-width 14px": {
+    "prefix": "min-w-3.5",
+    "body": "min-w-3.5",
+    "description": "min-width 14px"
+  },
+  "min-width 16px": {
+    "prefix": "min-w-4",
+    "body": "min-w-4",
+    "description": "min-width 16px"
+  },
+  "min-width 20px": {
+    "prefix": "min-w-5",
+    "body": "min-w-5",
+    "description": "min-width 20px"
+  },
+  "min-width 24px": {
+    "prefix": "min-w-6",
+    "body": "min-w-6",
+    "description": "min-width 24px"
+  },
+  "min-width 28px": {
+    "prefix": "min-w-7",
+    "body": "min-w-7",
+    "description": "min-width 28px"
+  },
+  "min-width 32px": {
+    "prefix": "min-w-8",
+    "body": "min-w-8",
+    "description": "min-width 32px"
+  },
+  "min-width 36px": {
+    "prefix": "min-w-9",
+    "body": "min-w-9",
+    "description": "min-width 36px"
+  },
+  "min-width 40px": {
+    "prefix": "min-w-10",
+    "body": "min-w-10",
+    "description": "min-width 40px"
+  },
+  "min-width 44px": {
+    "prefix": "min-w-11",
+    "body": "min-w-11",
+    "description": "min-width 44px"
+  },
+  "min-width 48px": {
+    "prefix": "min-w-12",
+    "body": "min-w-12",
+    "description": "min-width 48px"
+  },
+  "min-width 56px": {
+    "prefix": "min-w-14",
+    "body": "min-w-14",
+    "description": "min-width 56px"
+  },
+  "min-width 64px": {
+    "prefix": "min-w-16",
+    "body": "min-w-16",
+    "description": "min-width 64px"
+  },
+  "min-width 80px": {
+    "prefix": "min-w-20",
+    "body": "min-w-20",
+    "description": "min-width 80px"
+  },
+  "min-width 96px": {
+    "prefix": "min-w-24",
+    "body": "min-w-24",
+    "description": "min-width 96px"
+  },
+  "min-width 1/3": {
+    "prefix": "min-w-1/3",
+    "body": "min-w-1/3",
+    "description": "min-width 1/3"
+  },
+  "min-width 2/3": {
+    "prefix": "min-w-2/3",
+    "body": "min-w-2/3",
+    "description": "min-width 2/3"
+  },
+  "min-width 1/2": {
+    "prefix": "min-w-1/2",
+    "body": "min-w-1/2",
+    "description": "min-width 1/2"
+  },
+  "min-width 1/4": {
+    "prefix": "min-w-1/4",
+    "body": "min-w-1/4",
+    "description": "min-width 1/4"
+  },
+  "min-width 3/4": {
+    "prefix": "min-w-3/4",
+    "body": "min-w-3/4",
+    "description": "min-width 3/4"
+  },
+  "min-width 1/5": {
+    "prefix": "min-w-1/5",
+    "body": "min-w-1/5",
+    "description": "min-width 1/5"
+  },
+  "min-width 2/5": {
+    "prefix": "min-w-2/5",
+    "body": "min-w-2/5",
+    "description": "min-width 2/5"
+  },
+  "min-width 3/5": {
+    "prefix": "min-w-3/5",
+    "body": "min-w-3/5",
+    "description": "min-width 3/5"
+  },
+  "min-width 4/5": {
+    "prefix": "min-w-4/5",
+    "body": "min-w-4/5",
+    "description": "min-width 4/5"
+  },
+  "min-width full": {
+    "prefix": "min-w-full",
+    "body": "min-w-full",
+    "description": "min-width full"
+  },
+  "min-width screen": {
+    "prefix": "min-w-screen",
+    "body": "min-w-screen",
+    "description": "min-width screen"
+  },
+  "max-width 0px": {
+    "prefix": "max-w-0",
+    "body": "max-w-0",
+    "description": "max-width 0px"
+  },
+  "max-width 2px": {
+    "prefix": "max-w-0.5",
+    "body": "max-w-0.5",
+    "description": "max-width 2px"
+  },
+  "max-width 4px": {
+    "prefix": "max-w-1",
+    "body": "max-w-1",
+    "description": "max-width 4px"
+  },
+  "max-width 6px": {
+    "prefix": "max-w-1.5",
+    "body": "max-w-1.5",
+    "description": "max-width 6px"
+  },
+  "max-width 8px": {
+    "prefix": "max-w-2",
+    "body": "max-w-2",
+    "description": "max-width 8px"
+  },
+  "max-width 10px": {
+    "prefix": "max-w-2.5",
+    "body": "max-w-2.5",
+    "description": "max-width 10px"
+  },
+  "max-width 12px": {
+    "prefix": "max-w-3",
+    "body": "max-w-3",
+    "description": "max-width 12px"
+  },
+  "max-width 14px": {
+    "prefix": "max-w-3.5",
+    "body": "max-w-3.5",
+    "description": "max-width 14px"
+  },
+  "max-width 16px": {
+    "prefix": "max-w-4",
+    "body": "max-w-4",
+    "description": "max-width 16px"
+  },
+  "max-width 20px": {
+    "prefix": "max-w-5",
+    "body": "max-w-5",
+    "description": "max-width 20px"
+  },
+  "max-width 24px": {
+    "prefix": "max-w-6",
+    "body": "max-w-6",
+    "description": "max-width 24px"
+  },
+  "max-width 28px": {
+    "prefix": "max-w-7",
+    "body": "max-w-7",
+    "description": "max-width 28px"
+  },
+  "max-width 32px": {
+    "prefix": "max-w-8",
+    "body": "max-w-8",
+    "description": "max-width 32px"
+  },
+  "max-width 36px": {
+    "prefix": "max-w-9",
+    "body": "max-w-9",
+    "description": "max-width 36px"
+  },
+  "max-width 40px": {
+    "prefix": "max-w-10",
+    "body": "max-w-10",
+    "description": "max-width 40px"
+  },
+  "max-width 44px": {
+    "prefix": "max-w-11",
+    "body": "max-w-11",
+    "description": "max-width 44px"
+  },
+  "max-width 48px": {
+    "prefix": "max-w-12",
+    "body": "max-w-12",
+    "description": "max-width 48px"
+  },
+  "max-width 56px": {
+    "prefix": "max-w-14",
+    "body": "max-w-14",
+    "description": "max-width 56px"
+  },
+  "max-width 64px": {
+    "prefix": "max-w-16",
+    "body": "max-w-16",
+    "description": "max-width 64px"
+  },
+  "max-width 80px": {
+    "prefix": "max-w-20",
+    "body": "max-w-20",
+    "description": "max-width 80px"
+  },
+  "max-width 96px": {
+    "prefix": "max-w-24",
+    "body": "max-w-24",
+    "description": "max-width 96px"
+  },
+  "max-width 1/3": {
+    "prefix": "max-w-1/3",
+    "body": "max-w-1/3",
+    "description": "max-width 1/3"
+  },
+  "max-width 2/3": {
+    "prefix": "max-w-2/3",
+    "body": "max-w-2/3",
+    "description": "max-width 2/3"
+  },
+  "max-width 1/2": {
+    "prefix": "max-w-1/2",
+    "body": "max-w-1/2",
+    "description": "max-width 1/2"
+  },
+  "max-width 1/4": {
+    "prefix": "max-w-1/4",
+    "body": "max-w-1/4",
+    "description": "max-width 1/4"
+  },
+  "max-width 3/4": {
+    "prefix": "max-w-3/4",
+    "body": "max-w-3/4",
+    "description": "max-width 3/4"
+  },
+  "max-width 1/5": {
+    "prefix": "max-w-1/5",
+    "body": "max-w-1/5",
+    "description": "max-width 1/5"
+  },
+  "max-width 2/5": {
+    "prefix": "max-w-2/5",
+    "body": "max-w-2/5",
+    "description": "max-width 2/5"
+  },
+  "max-width 3/5": {
+    "prefix": "max-w-3/5",
+    "body": "max-w-3/5",
+    "description": "max-width 3/5"
+  },
+  "max-width 4/5": {
+    "prefix": "max-w-4/5",
+    "body": "max-w-4/5",
+    "description": "max-width 4/5"
+  },
+  "max-width full": {
+    "prefix": "max-w-full",
+    "body": "max-w-full",
+    "description": "max-width full"
+  },
+  "max-width screen": {
+    "prefix": "max-w-screen",
+    "body": "max-w-screen",
+    "description": "max-width screen"
+  }
+}
