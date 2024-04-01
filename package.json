@@ -1,7 +1,25 @@
 {
   "name": "react-native-intellisense",
   "displayName": "react-native-intellisense",
-  "description": "react-native-intellisense",
+  "description": "Intelligent styles react-native-box",
+  "author": "SangYuo",
+  "publisher": "SangYuo",
+  "license": "MIT",
+  "homepage": "https://github.com/sangyuo/react-native-box-intellisense",
+  "bugs": {
+    "url": "https://github.com/sangyuo/react-native-box-intellisense/issues",
+    "email": "sangxilam@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sangyuo/react-native-box-intellisense.git"
+  },
+  "keywords": [
+    "react-native-box-intellisense",
+    "react-native-box",
+    "react-native",
+    "vscode-intellisense"
+  ],
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.87.0"
@@ -9,16 +27,10 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "react-native-intellisense.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
