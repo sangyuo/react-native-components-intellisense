@@ -4,7 +4,6 @@
 
 import * as vscode from "vscode";
 const keyStyles = require("../snippets/snippets-react-native-box.json");
-
 export async function activate(context: vscode.ExtensionContext) {
   const provider = vscode.languages.registerCompletionItemProvider(
     [
@@ -13,7 +12,7 @@ export async function activate(context: vscode.ExtensionContext) {
       { language: "typescriptreact", scheme: "file" },
     ],
     {
-      provideCompletionItems(
+      async provideCompletionItems(
         document: vscode.TextDocument,
         position: vscode.Position
       ) {
@@ -27,15 +26,20 @@ export async function activate(context: vscode.ExtensionContext) {
               const item: {
                 prefix: string;
                 description: string;
+                color?: string;
               } = keyStyles[key];
               const completionItem = new vscode.CompletionItem(
-                {
-                  label: item.prefix,
-                  detail: "",
-                  description: item.description,
-                },
-                vscode.CompletionItemKind.Enum
+                item.prefix,
+                item.color
+                  ? vscode.CompletionItemKind.Color
+                  : vscode.CompletionItemKind.Enum
               );
+              if (item.color) {
+                completionItem.documentation = new vscode.MarkdownString(
+                  `Color: ${item.color}`
+                );
+              }
+              completionItem.detail = item.description;
               completionItems.push(completionItem);
             }
           }
