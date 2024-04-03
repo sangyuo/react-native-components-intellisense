@@ -15,8 +15,10 @@
     "url": "https://github.com/sangyuo/react-native-box-intellisense.git"
   },
   "keywords": [
-    "react-native-box-intellisense",
+    "react-native-components-intellisense",
+    "react-native-components",
     "react-native-box",
+    "react-native-text",
     "react-native",
     "vscode-intellisense"
   ],
