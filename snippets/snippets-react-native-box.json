@@ -7020,5 +7020,15 @@
     "prefix": "font-black",
     "body": "font-black",
     "description": "fontWeight: 900"
+  },
+  "absolute": {
+    "prefix": "absolute",
+    "body": "absolute",
+    "description": "position: absolute"
+  },
+  "relative": {
+    "prefix": "relative",
+    "body": "relative",
+    "description": "position: relative"
   }
 }
