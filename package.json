@@ -1,18 +1,18 @@
 {
-  "name": "react-native-intellisense",
-  "displayName": "react-native-intellisense",
+  "name": "react-native-components-intellisense",
+  "displayName": "react-native-components-intellisense",
   "description": "Intelligent styles react-native-box",
   "author": "SangYuo",
   "publisher": "SangYuo",
   "license": "MIT",
-  "homepage": "https://github.com/sangyuo/react-native-box-intellisense",
+  "homepage": "https://github.com/sangyuo/react-native-components-intellisense",
   "bugs": {
-    "url": "https://github.com/sangyuo/react-native-box-intellisense/issues",
+    "url": "https://github.com/sangyuo/react-native-components-intellisense/issues",
     "email": "sangxilam@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sangyuo/react-native-box-intellisense.git"
+    "url": "https://github.com/sangyuo/react-native-components-intellisense.git"
   },
   "keywords": [
     "react-native-components-intellisense",
