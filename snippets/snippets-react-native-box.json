@@ -1,4 +1,169 @@
 {
+  "display:flex": {
+    "prefix": "d-flex",
+    "body": "d-flex",
+    "description": "display:flex"
+  },
+  "display:none": {
+    "prefix": "d-none",
+    "body": "d-none",
+    "description": "display:none"
+  },
+  "flex:1": {
+    "prefix": "flex-1",
+    "body": "flex-1",
+    "description": "flex:1"
+  },
+  "flex-wrap": {
+    "prefix": "flex-wrap",
+    "body": "flex-wrap",
+    "description": "flexWrap: wrap"
+  },
+  "flex-wrap-reverse": {
+    "prefix": "flex-wrap-reverse",
+    "body": "flex-wrap-reverse",
+    "description": "flexWrap: wrap-reverse"
+  },
+  "flex-nowrap": {
+    "prefix": "flex-nowrap",
+    "body": "flex-nowrap",
+    "description": "flexWrap: nowrap"
+  },
+  "row": {
+    "prefix": "row",
+    "body": "row",
+    "description": "flexDirection: row"
+  },
+  "row-center": {
+    "prefix": "row-center",
+    "body": "row-center",
+    "description": "flexDirection: row, alignItems: center"
+  },
+  "row-v-center": {
+    "prefix": "row-v-center",
+    "body": "row-v-center",
+    "description": "flexDirection: row, justifyContent: center"
+  },
+  "row-reverse": {
+    "prefix": "row-reverse",
+    "body": "row-reverse",
+    "description": "flexDirection: row-reverse"
+  },
+  "column": {
+    "prefix": "column",
+    "body": "column",
+    "description": "flexDirection: column"
+  },
+  "column-center": {
+    "prefix": "column-center",
+    "body": "column-center",
+    "description": "flexDirection: column, justifyContent: center"
+  },
+  "column-v-center": {
+    "prefix": "column-v-center",
+    "body": "column-v-center",
+    "description": "flexDirection: column, alignItems: center"
+  },
+  "column-reverse": {
+    "prefix": "column-reverse",
+    "body": "column-reverse",
+    "description": "flexDirection: column-reverse"
+  },
+  "center": {
+    "prefix": "center",
+    "body": "center",
+    "description": "justifyContent: center, alignItems: center"
+  },
+  "self-center": {
+    "prefix": "self-center",
+    "body": "self-center",
+    "description": "alignSelf: center"
+  },
+  "self-start": {
+    "prefix": "self-start",
+    "body": "self-start",
+    "description": "alignSelf: flex-start"
+  },
+  "self-end": {
+    "prefix": "self-end",
+    "body": "self-end",
+    "description": "alignSelf: flex-end"
+  },
+  "justify-start": {
+    "prefix": "justify-start",
+    "body": "justify-start",
+    "description": "justifyContent: flex-start"
+  },
+  "justify-center": {
+    "prefix": "justify-center",
+    "body": "justify-center",
+    "description": "justifyContent: center"
+  },
+  "justify-end": {
+    "prefix": "justify-end",
+    "body": "justify-end",
+    "description": "justifyContent: flex-end"
+  },
+  "space-between": {
+    "prefix": "space-between",
+    "body": "space-between",
+    "description": "justifyContent: space-between"
+  },
+  "space-around": {
+    "prefix": "space-around",
+    "body": "space-around",
+    "description": "justifyContent: space-around"
+  },
+  "items-start": {
+    "prefix": "items-start",
+    "body": "items-start",
+    "description": "alignItems: flex-start"
+  },
+  "items-center": {
+    "prefix": "items-center",
+    "body": "items-center",
+    "description": "alignItems: center"
+  },
+  "items-end": {
+    "prefix": "items-end",
+    "body": "items-end",
+    "description": "alignItems: flex-end"
+  },
+  "aspectRatio": {
+    "prefix": "aspectRatio",
+    "body": "aspectRatio",
+    "description": "aspectRatio: 1"
+  },
+  "aspectRatio-16/9": {
+    "prefix": "aspectRatio-16/9",
+    "body": "aspectRatio-16/9",
+    "description": "aspectRatio: 16/9"
+  },
+  "aspectRatio-4/3": {
+    "prefix": "aspectRatio-4/3",
+    "body": "aspectRatio-4/3",
+    "description": "aspectRatio: 4/3"
+  },
+  "object-cover": {
+    "prefix": "object-cover",
+    "body": "object-cover",
+    "description": "objectFit: cover"
+  },
+  "object-contain": {
+    "prefix": "object-contain",
+    "body": "object-contain",
+    "description": "objectFit: contain"
+  },
+  "object-fill": {
+    "prefix": "object-fill",
+    "body": "object-fill",
+    "description": "objectFit: fill"
+  },
+  "object-scale-down": {
+    "prefix": "object-scale-down",
+    "body": "object-scale-down",
+    "description": "objectFit: scale-down"
+  },
   "height 0px": {
     "prefix": "h",
     "body": "h-0",
@@ -6715,5 +6880,145 @@
     "color": "rgb(9,9,11)",
     "description": "color: rgb(9,9,11)",
     "prefix": "text-zinc-950"
+  },
+  "text-xs": {
+    "prefix": "text-xs",
+    "body": "text-xs",
+    "description": "fontSize: 10, lineHeight: 18"
+  },
+  "text-sm": {
+    "prefix": "text-sm",
+    "body": "text-sm",
+    "description": "fontSize: 12, lineHeight: 20"
+  },
+  "text-base": {
+    "prefix": "text-base",
+    "body": "text-base",
+    "description": "fontSize: 14, lineHeight: 22"
+  },
+  "text-md": {
+    "prefix": "text-md",
+    "body": "text-md",
+    "description": "fontSize: 16, lineHeight: 24"
+  },
+  "text-lg": {
+    "prefix": "text-lg",
+    "body": "text-lg",
+    "description": "fontSize: 18, lineHeight: 26"
+  },
+  "text-xl": {
+    "prefix": "text-xl",
+    "body": "text-xl",
+    "description": "fontSize: 20, lineHeight: 26"
+  },
+  "text-2xl": {
+    "prefix": "text-2xl",
+    "body": "text-2xl",
+    "description": "fontSize: 24, lineHeight: 32"
+  },
+  "text-3xl": {
+    "prefix": "text-3xl",
+    "body": "text-3xl",
+    "description": "fontSize: 30, lineHeight: 36"
+  },
+  "text-4xl": {
+    "prefix": "text-4xl",
+    "body": "text-4xl",
+    "description": "fontSize: 36, lineHeight: 40"
+  },
+  "text-5xl": {
+    "prefix": "text-5xl",
+    "body": "text-5xl",
+    "description": "fontSize: 48"
+  },
+  "text-6xl": {
+    "prefix": "text-6xl",
+    "body": "text-6xl",
+    "description": "fontSize: 60"
+  },
+  "text-7xl": {
+    "prefix": "text-7xl",
+    "body": "text-7xl",
+    "description": "fontSize: 72"
+  },
+  "text-8xl": {
+    "prefix": "text-8xl",
+    "body": "text-8xl",
+    "description": "fontSize: 96"
+  },
+  "text-9xl": {
+    "prefix": "text-9xl",
+    "body": "text-9xl",
+    "description": "fontSize: 128"
+  },
+  "text-center": {
+    "prefix": "text-center",
+    "body": "text-center",
+    "description": "textAlign: center"
+  },
+  "text-left": {
+    "prefix": "text-left",
+    "body": "text-left",
+    "description": "textAlign: left"
+  },
+  "text-right": {
+    "prefix": "text-right",
+    "body": "text-right",
+    "description": "textAlign: right"
+  },
+  "text-auto": {
+    "prefix": "text-auto",
+    "body": "text-auto",
+    "description": "textAlign: auto"
+  },
+  "text-justify": {
+    "prefix": "text-justify",
+    "body": "text-justify",
+    "description": "textAlign: justify"
+  },
+  "font-thin": {
+    "prefix": "font-thin",
+    "body": "font-thin",
+    "description": "fontWeight: 100"
+  },
+  "font-extraLight": {
+    "prefix": "font-extraLight",
+    "body": "font-extraLight",
+    "description": "fontWeight: 200"
+  },
+  "font-light": {
+    "prefix": "font-light",
+    "body": "font-light",
+    "description": "fontWeight: 300"
+  },
+  "font-normal": {
+    "prefix": "font-normal",
+    "body": "font-normal",
+    "description": "fontWeight: 400"
+  },
+  "font-medium": {
+    "prefix": "font-medium",
+    "body": "font-medium",
+    "description": "fontWeight: 500"
+  },
+  "font-semibold": {
+    "prefix": "font-semibold",
+    "body": "font-semibold",
+    "description": "fontWeight: 600"
+  },
+  "font-bold": {
+    "prefix": "font-bold",
+    "body": "font-bold",
+    "description": "fontWeight: 700"
+  },
+  "font-extrabold": {
+    "prefix": "font-extrabold",
+    "body": "font-extrabold",
+    "description": "fontWeight: 800"
+  },
+  "font-black": {
+    "prefix": "font-black",
+    "body": "font-black",
+    "description": "fontWeight: 900"
   }
 }
