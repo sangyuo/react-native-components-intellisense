@@ -23,17 +23,17 @@ export async function activate(context: vscode.ExtensionContext) {
         if (lineUntilPos?.includes("className")) {
           for (const key in keyStyles) {
             const item: {
-              prefix: string;
+              body: string;
               description: string;
               color?: string;
             } = keyStyles[key];
             const completionItem = new vscode.CompletionItem(
-              item.prefix,
-              item.color
+              item.body,
+              item?.color
                 ? vscode.CompletionItemKind.Color
                 : vscode.CompletionItemKind.Enum
             );
-            if (item.color) {
+            if (item?.color) {
               completionItem.documentation = new vscode.MarkdownString(
                 `Color: ${item.color}`
               );
