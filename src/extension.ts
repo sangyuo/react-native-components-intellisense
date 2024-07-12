@@ -3,7 +3,28 @@
  *--------------------------------------------------------*/
 
 import * as vscode from "vscode";
-const keyStyles = require("../snippets/snippets-react-native-box.json");
+interface KeyStyles {
+  prefix: string;
+  description: string;
+  color?: string;
+}
+const keyStyles:KeyStyles[] = require("../snippets/snippets-react-native-box.json");
+const regexClass = /class\w+=/g;
+
+function isBalancedClassString(classString:string) {
+  if(classString) {
+      const brackets = classString.split(regexClass);
+      if (brackets) {
+        const endString = brackets[brackets.length - 1].match(/[/"/]/g);
+        console.log("endString",endString);
+        if (endString) {
+          return  endString.length === 0 || endString.length % 2 === 0;
+        }
+      }
+  }
+  return true;
+}
+
 export async function activate(context: vscode.ExtensionContext) {
   const provider = vscode.languages.registerCompletionItemProvider(
     [
@@ -17,29 +38,29 @@ export async function activate(context: vscode.ExtensionContext) {
         position: vscode.Position
       ) {
         let lineUntilPos = document.getText(
-          new vscode.Range(new vscode.Position(position.line, 0), position)
+          new vscode.Range(new vscode.Position(Math.max(position.line-2, 0), 0), position)
         );
         let completionItems: any[] = [];
-        if (lineUntilPos?.includes("className")) {
+        const linePrefix = document.lineAt(position).text.substring(0, position.character);
+        const endText = linePrefix.match(/\w+-?$/g);
+        if (lineUntilPos?.includes("class") && !isBalancedClassString(lineUntilPos)) {
           for (const key in keyStyles) {
-            const item: {
-              prefix: string;
-              description: string;
-              color?: string;
-            } = keyStyles[key];
-            const completionItem = new vscode.CompletionItem(
-              item.prefix,
-              item.color
-                ? vscode.CompletionItemKind.Color
-                : vscode.CompletionItemKind.Enum
-            );
-            if (item.color) {
-              completionItem.documentation = new vscode.MarkdownString(
-                `Color: ${item.color}`
+            const item = keyStyles[key];
+            if(!endText || item.prefix.startsWith(endText[0]) ){
+              const completionItem = new vscode.CompletionItem(
+                item.prefix,
+                item.color
+                  ? vscode.CompletionItemKind.Color
+                  : vscode.CompletionItemKind.Enum
               );
+              if (item.color) {
+                completionItem.documentation = new vscode.MarkdownString(
+                  `Color: ${item.color}`
+                );
+              }
+              completionItem.detail = item.description;
+              completionItems.push(completionItem);
             }
-            completionItem.detail = item.description;
-            completionItems.push(completionItem);
           }
         }
         return [...completionItems];
