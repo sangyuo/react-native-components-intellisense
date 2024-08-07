@@ -30,6 +30,7 @@ const keywordBorder = [
   "border-r",
   "border-x",
   "border-y",
+  "shadow",
 ];
 const keywordColor = ["bg", "text", ...keywordBorder];
 

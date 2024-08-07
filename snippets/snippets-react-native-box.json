@@ -703,5 +703,125 @@
     "prefix": "font-black",
     "body": "font-black",
     "description": "fontWeight: 900"
+  },
+  "shadow": {
+    "prefix": "shadow",
+    "body": "shadow",
+    "description": "shadow: 1px"
+  },
+  "shadow-2": {
+    "prefix": "shadow-2",
+    "body": "shadow-2",
+    "description": "shadow: 2px"
+  },
+  "shadow-3": {
+    "prefix": "shadow-3",
+    "body": "shadow-3",
+    "description": "shadow: 3px"
+  },
+  "shadow-4": {
+    "prefix": "shadow-4",
+    "body": "shadow-4",
+    "description": "shadow: 4px"
+  },
+  "shadow-5": {
+    "prefix": "shadow-5",
+    "body": "shadow-5",
+    "description": "shadow: 5px"
+  },
+  "shadow-6": {
+    "prefix": "shadow-6",
+    "body": "shadow-6",
+    "description": "shadow: 6px"
+  },
+  "shadow-7": {
+    "prefix": "shadow-7",
+    "body": "shadow-7",
+    "description": "shadow: 7px"
+  },
+  "shadow-8": {
+    "prefix": "shadow-8",
+    "body": "shadow-8",
+    "description": "shadow: 8px"
+  },
+  "shadow-9": {
+    "prefix": "shadow-9",
+    "body": "shadow-9",
+    "description": "shadow: 9px"
+  },
+  "shadow-10": {
+    "prefix": "shadow-10",
+    "body": "shadow-10",
+    "description": "shadow: 10px"
+  },
+  "shadow-11": {
+    "prefix": "shadow-11",
+    "body": "shadow-11",
+    "description": "shadow: 11px"
+  },
+  "shadow-12": {
+    "prefix": "shadow-12",
+    "body": "shadow-12",
+    "description": "shadow: 12px"
+  },
+  "shadow-13": {
+    "prefix": "shadow-13",
+    "body": "shadow-13",
+    "description": "shadow: 13px"
+  },
+  "shadow-14": {
+    "prefix": "shadow-14",
+    "body": "shadow-14",
+    "description": "shadow: 14px"
+  },
+  "shadow-15": {
+    "prefix": "shadow-15",
+    "body": "shadow-15",
+    "description": "shadow: 15px"
+  },
+  "shadow-16": {
+    "prefix": "shadow-16",
+    "body": "shadow-16",
+    "description": "shadow: 16px"
+  },
+  "shadow-17": {
+    "prefix": "shadow-17",
+    "body": "shadow-17",
+    "description": "shadow: 17px"
+  },
+  "shadow-18": {
+    "prefix": "shadow-18",
+    "body": "shadow-18",
+    "description": "shadow: 18px"
+  },
+  "shadow-19": {
+    "prefix": "shadow-19",
+    "body": "shadow-19",
+    "description": "shadow: 19px"
+  },
+  "shadow-20": {
+    "prefix": "shadow-20",
+    "body": "shadow-20",
+    "description": "shadow: 20px"
+  },
+  "shadow-21": {
+    "prefix": "shadow-21",
+    "body": "shadow-21",
+    "description": "shadow: 21px"
+  },
+  "shadow-22": {
+    "prefix": "shadow-22",
+    "body": "shadow-22",
+    "description": "shadow: 22px"
+  },
+  "shadow-23": {
+    "prefix": "shadow-23",
+    "body": "shadow-23",
+    "description": "shadow: 23px"
+  },
+  "shadow-24": {
+    "prefix": "shadow-24",
+    "body": "shadow-24",
+    "description": "shadow: 24px"
   }
 }
