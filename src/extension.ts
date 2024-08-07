@@ -3,14 +3,26 @@
  *--------------------------------------------------------*/
 
 import * as vscode from "vscode";
-import { COLORS, SIZE_SPACE, sizeStylesType } from "./constants";
+import {
+  BORDER_RADIUS,
+  BORDER_WIDTH,
+  borderStylesType,
+  COLORS,
+  LINE_HEIGHT_SIZE,
+  roundedStylesType,
+  SIZE_SPACE,
+  sizeStylesType,
+  TEXT_SIZE,
+} from "./constants";
 interface KeyStyles {
   prefix: string;
   description: string;
   color?: string;
 }
 const keyStyles: KeyStyles[] = require("../snippets/snippets-react-native-box.json");
-const regexClass = /class\w+=/g;
+const regexStart = /(class\w*=\s*\{[^}]*$)/g;
+const regexStartB = /(class\w*=\s*\"[^"]*$)/g;
+
 const keywordBorder = [
   "border",
   "border-t",
@@ -20,19 +32,6 @@ const keywordBorder = [
   "border-y",
 ];
 const keywordColor = ["bg", "text", ...keywordBorder];
-
-function isBalancedClassString(classString: string) {
-  if (classString) {
-    const brackets = classString.split(regexClass);
-    if (brackets) {
-      const endString = brackets[brackets.length - 1].match(/[/"/]/g);
-      if (endString) {
-        return endString.length === 0 || endString.length % 2 === 0;
-      }
-    }
-  }
-  return true;
-}
 
 const generalCompletionItemColor = (
   completionItems: vscode.CompletionItem[],
@@ -102,10 +101,7 @@ export async function activate(context: vscode.ExtensionContext) {
         position: vscode.Position
       ) {
         let lineUntilPos = document.getText(
-          new vscode.Range(
-            new vscode.Position(Math.max(position.line - 2, 0), 0),
-            position
-          )
+          new vscode.Range(new vscode.Position(0, 0), position)
         );
         let completionItems: any[] = [];
         const linePrefix = document
@@ -113,8 +109,8 @@ export async function activate(context: vscode.ExtensionContext) {
           .text.substring(0, position.character);
         const endText = linePrefix.match(/\w+(-\w+)?-?$/g);
         if (
-          lineUntilPos?.includes("class") &&
-          !isBalancedClassString(lineUntilPos)
+          lineUntilPos?.match(regexStart) ||
+          lineUntilPos?.match(regexStartB)
         ) {
           const positionStart = new vscode.Position(
             position.line,
@@ -125,6 +121,30 @@ export async function activate(context: vscode.ExtensionContext) {
           generalCompletionItemProperty(
             SIZE_SPACE,
             sizeStylesType,
+            completionItems,
+            rangeStart
+          );
+          generalCompletionItemProperty(
+            TEXT_SIZE,
+            { text: "fontSize" },
+            completionItems,
+            rangeStart
+          );
+          generalCompletionItemProperty(
+            LINE_HEIGHT_SIZE,
+            { "line-height": "lineHeight" },
+            completionItems,
+            rangeStart
+          );
+          generalCompletionItemProperty(
+            BORDER_RADIUS,
+            roundedStylesType,
+            completionItems,
+            rangeStart
+          );
+          generalCompletionItemProperty(
+            BORDER_WIDTH,
+            borderStylesType,
             completionItems,
             rangeStart
           );

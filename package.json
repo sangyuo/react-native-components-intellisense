@@ -5,6 +5,7 @@
   "author": "SangYuo",
   "publisher": "SangYuo",
   "license": "MIT",
+  "icon": "./logo.png",
   "homepage": "https://github.com/sangyuo/react-native-box-intellisense",
   "bugs": {
     "url": "https://github.com/sangyuo/react-native-box-intellisense/issues",
@@ -22,7 +23,7 @@
     "react-native",
     "vscode-intellisense"
   ],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.87.0"
   },
