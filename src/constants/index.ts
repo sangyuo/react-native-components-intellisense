@@ -1,3 +1,6 @@
+export const CONFIG_GLOB =
+  "{box.config,box.*.config,box.config.*}.{js,cjs,ts,mjs}";
+
 export const COLORS = {
   black: "#000000",
   white: "#ffffff",

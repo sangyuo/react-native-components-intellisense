@@ -23,7 +23,7 @@
     "react-native",
     "vscode-intellisense"
   ],
-  "version": "0.0.7",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.87.0"
   },
