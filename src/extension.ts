@@ -230,8 +230,9 @@ export async function activate(context: vscode.ExtensionContext) {
               },
             };
           });
+          return completionItems;
         }
-        return completionItems;
+        return [];
       },
     }
   );

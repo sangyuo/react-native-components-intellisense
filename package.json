@@ -19,11 +19,10 @@
     "react-native-components-intellisense",
     "react-native-components",
     "react-native-box",
-    "react-native-text",
     "react-native",
     "vscode-intellisense"
   ],
-  "version": "0.0.9",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.87.0"
   },
