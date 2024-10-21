@@ -1,4 +1,14 @@
 {
+  "absolute": {
+    "prefix": "absolute",
+    "body": "absolute",
+    "description": "position: absolute"
+  },
+  "relative": {
+    "prefix": "relative",
+    "body": "relative",
+    "description": "position: relative"
+  },
   "display:flex": {
     "prefix": "d-flex",
     "body": "d-flex",

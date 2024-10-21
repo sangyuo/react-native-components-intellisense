@@ -16,8 +16,9 @@ interface KeyStyles {
   color?: string;
 }
 const keyStyles: KeyStyles[] = require("../snippets/snippets-react-native-box.json");
-const regexStart = /(class\w*=\s*\{[^}]*$)/g;
-const regexStartB = /(class\w*=\s*\"[^"]*$)/g;
+const regexStart = /(class\w*\s*=\s*\{[^}]*$)/g;
+const regexStartB = /(class\w*\s*=\s*\"[^"]*$)/g;
+const regexStartC = /(class\w*\s*=\s*\'[^']*$)/g;
 
 const keywordBorder = [
   "border",
@@ -214,7 +215,8 @@ export async function activate(context: vscode.ExtensionContext) {
         const endText = linePrefix.match(/\w+(-\w+)?-?$/g);
         if (
           lineUntilPos?.match(regexStart) ||
-          lineUntilPos?.match(regexStartB)
+          lineUntilPos?.match(regexStartB) ||
+          lineUntilPos?.match(regexStartC)
         ) {
           const positionStart = new vscode.Position(
             position.line,
